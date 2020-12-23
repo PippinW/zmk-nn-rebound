@@ -3,7 +3,7 @@ manifest:
     - name: zmk
       url-base: https://github.com/PippinW/zmk
   projects:
-    - remote: zmk
+    - name: zmk
       revision: main
       import: app/west.yml
   self:
