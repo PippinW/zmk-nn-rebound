@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmk
-      url-base: https://github.com/PippinW
+      url-base: https://github.com/PippinW/zmk
   projects:
     - remote: zmk
       revision: main
