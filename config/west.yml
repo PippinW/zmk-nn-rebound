@@ -1,9 +1,10 @@
 manifest:
   remotes:
     - name: zmk
-      url-base: https://github.com/PippinW/zmk
+      url-base: https://github.com/
   projects:
-       remote: zmk
+    - name: PippinW
+      remote: zmk
       revision: main
       import: app/west.yml
   self:
