@@ -51,7 +51,7 @@
 // | ESC  | ALT | CMD | CAPS|  "  |     |     |       |     |     |      |      |      |      |      | 
 //
                         bindings = < 
-   &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT &kp GRAVE                 &trans  &kp HOME  &kp PGUP  &kp UP   &kp PGDN  &trans   
+   &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT &kp GRAVE                 &trans  &kp HOME  &kp PG_UP &kp UP   &kp PG_DN &trans   
    &kp CARET &kp AMPS    &kp STAR &kp LPAR &kp RPAR  &kp TILDE     &trans      &trans  &kp END   &kp LEFT  &kp DOWN &kp RIGHT &trans 
    &kp MINUS &kp KP_PLUS &kp LBRC &kp RBRC &kp PIPE  &trans        &trans      &trans  &trans    &trans    &trans   &trans    &trans
    &kp ESC   &kp LALT    &kp LCMD &kp CLCK &kp DQT   &trans        &trans      &trans  &trans    &trans    &trans   &trans    &trans
