@@ -4,7 +4,7 @@ name: Build
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     container:
       image: zmkfirmware/zmk-build-arm:2.4
     name: Build
