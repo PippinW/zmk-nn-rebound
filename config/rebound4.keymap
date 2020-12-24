@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     behaviors {
@@ -32,7 +33,7 @@
 //                         
                         bindings = <
    &kp Q       &kp W      &kp E       &kp R       &kp T   &mo 1               &mo 1   &kp Y   &kp U       &kp I       &kp O      &kp P     
-   &hm LCMD A  &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &mo 2     &kp TAB   &mo 2   &kp H   &hm RSHFT J &hm RCTRL K &hm RALT L &hm RCMD QUOT  
+   &hm LCMD A  &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &mo 2     &kp TAB   &mo 2   &kp H   &hm RSHFT J &hm RCTRL K &hm RALT L &hm RCMD SQT  
    &kp Z       &kp X      &kp C       &kp V       &kp B   &mo 3     &kp RET   &mo 3   &kp N   &kp M       &kp COMMA   &kp DOT    &kp FSLH  
    &kp LCTRL   &kp LALT   &kp LCMD    &kp LSHFT   &kp DEL &kp BSPC  &kp CLCK  &kp SPC &kp SPC &kp RCMD    &kp RALT    &kp RCTRL  &kp SEMI  
                       
@@ -52,7 +53,7 @@
    &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT &kp GRAVE                 &trans  &kp HOME  &kp PGUP  &kp UP   &kp PGDN  &trans   
    &kp CARET &kp AMPS    &kp STAR &kp LPAR &kp RPAR  &kp TILDE     &trans      &trans  &kp END   &kp LEFT  &kp DOWN &kp RIGHT &trans 
    &kp MINUS &kp KP_PLUS &kp LBRC &kp RBRC &kp PIPE  &trans        &trans      &trans  &trans    &trans    &trans   &trans    &trans
-   &kp ESC   &kp LALT    &kp LCMD &kp CLCK &kp SQT   &trans        &trans      &trans  &trans    &trans    &trans   &trans    &trans
+   &kp ESC   &kp LALT    &kp LCMD &kp CLCK &kp DQT   &trans        &trans      &trans  &trans    &trans    &trans   &trans    &trans
                                   
                         >;
 
@@ -88,7 +89,7 @@
    &trans    &trans    &trans   &trans   &trans   &bt BT_SEL 0                 &bt BT_SEL 3 &kp F1  &kp F2  &kp F3  &kp F4   &kp F5     
    &kp N1    &kp N2    &kp N3   &kp N4   &kp N5   &bt BT_SEL 1    &bt BT_CLR   &bt BT_SEL 4 &kp N6  &kp N7  &kp N8  &kp N9   &kp N0   
    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &bt BT_SEL 2    &reset       &trans       &kp F6  &kp F7  &kp F8  &kp F9   &kp F10 
-   &kp ESC   &kp LALT  &kp LCMD &kp CLCK &kp SQT  &out OUT_USB    &none        &out OUT_BLE &trans  &trans  &trans  &kp F11  &kp F12
+   &kp ESC   &kp LALT  &kp LCMD &kp CLCK &kp SQT  &out OUT_USB    &none        &out OUT_BLE &kp F11 &kp F12 &kp F13 &kp F14  &kp F15
                                 
                         >;
 
