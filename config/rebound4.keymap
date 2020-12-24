@@ -34,7 +34,7 @@
    &kp Q       &kp W      &kp E       &kp R       &kp T   &mo 1               &mo 1   &kp Y   &kp U       &kp I       &kp O      &kp P     
    &hm LCMD A  &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &mo 2     &kp TAB   &mo 2   &kp H   &hm RSHFT J &hm RCTRL K &hm RALT L &hm RCMD QUOT  
    &kp Z       &kp X      &kp C       &kp V       &kp B   &mo 3     &kp RET   &mo 3   &kp N   &kp M       &kp COMMA   &kp DOT    &kp FSLH  
-   &kp LCTRL   &kp LALT   &kp LCMD    &kp SHFT    &kp DEL &kp BSPC  &kp CLCK  &kp SPC &kp SPC &kp RCMD    &kp RALT    &kp RCTRL  &kp SEMI  
+   &kp LCTRL   &kp LALT   &kp LCMD    &kp LSHFT   &kp DEL &kp BSPC  &kp CLCK  &kp SPC &kp SPC &kp RCMD    &kp RALT    &kp RCTRL  &kp SEMI  
                       
                         >;
 
