@@ -42,16 +42,6 @@ jobs:
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 rebound4_nice_nano.uf2
-              - name: Export Zephyr CMake package (west zephyr-export)
-        run: west zephyr-export
-      - name: Test all
-        run: west test
-      - name: Archive artifacts
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v2
-        with:
-          name: "log-files"
-          path: app/build/**/*.log
       - name: Archive (rebound4)
         uses: actions/upload-artifact@v2
         with:
