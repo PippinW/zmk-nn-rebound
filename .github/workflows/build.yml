@@ -34,7 +34,7 @@ jobs:
       - name: West Zephyr export
         run: west zephyr-export
       - name: West Build (rebound4)
-        run: west build -s zmk/app -b nice_nano -- -DSHIELD=rebound4 -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+        run: west build -p -s zmk/app -b nice_nano -- -DSHIELD=rebound4 -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
       - name: rebound4 DTS File
         if: ${{ always() }}
         run: cat -n build/zephyr/nice_nano.dts.pre.tmp
