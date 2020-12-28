@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: PippinW
-      revision: main
+      revision: rebound4
       import: app/west.yml
   self:
     path: config
